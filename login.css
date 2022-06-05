@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background: #353232;
+}
+
+h2 {
+    color: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 350px;
+    padding: 40px;
+    background: #484848;
+}
+
+.email {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+}
+
+.password {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+}
+
+.login {
+    padding: 15px 40px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.login:hover {
+    background: #202020;
+    color: #f5f5f5;
+    border: none;
+    transition: 0.3s ease;
+
+}
+
+marquee {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
